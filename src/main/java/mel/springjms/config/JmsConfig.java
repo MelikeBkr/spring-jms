@@ -9,6 +9,7 @@ import org.springframework.jms.support.converter.MessageType;
 @Configuration
 public class JmsConfig
 {
+    public static final String QUEUE_NAME = "hello-world-queue";
     @Bean
     public MessageConverter messageConverter()
     {
